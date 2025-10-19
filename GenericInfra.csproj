@@ -3,7 +3,10 @@
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <Version>1.0.0</Version>
+        <Authors>Abdullah Coban</Authors>
+        <Description>Generic Unit of Work ve Repository Package</Description>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
