@@ -1,0 +1,43 @@
+Build results
+
+bin/
+obj/
+
+Exclude all compiled artifacts that might leak outside of bin/ and obj/
+
+*.dll
+*.pdb
+*.exe
+*.o
+
+Visual Studio user-specific files
+
+*.user
+*.rsuser
+*.suo
+
+Visual Studio Code settings
+
+.vscode/
+
+Rider/IntelliJ IDE files
+
+.idea/
+
+Logs
+
+*.log
+logs/
+
+OS-generated files
+
+.DS_Store
+
+Environment variables
+
+.env
+.env.*
+
+Development Configuration
+
+appsettings.Development.json
